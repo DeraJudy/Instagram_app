@@ -1,7 +1,5 @@
 import { Text } from "react-native";
 
 export default function About () {
-    return (
-        <Text>Hello World</Text>
-    )
+    return <Text>About Us Page</Text>;
 }
