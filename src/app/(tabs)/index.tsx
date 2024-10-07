@@ -6,10 +6,10 @@ import PostListItem from "~/src/components/PostListitem";
 export default function FeedScreen () {
 
     return(
-        <FlatList 
+        <FlatList
             data={posts}
             renderItem={({ item }) => <PostListItem post={item} />}
-            contentContainerStyle={{ gap: 10 }}
+            contentContainerStyle={{ gap: 10, maxWidth: 512, width: '100%', alignSelf: 'center'}}
             showsVerticalScrollIndicator={false}
         />
     )
